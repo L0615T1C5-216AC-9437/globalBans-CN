@@ -23,6 +23,7 @@ public class main extends Plugin{
             Player player = event.player;
             try {
                 HttpURLConnection con = (HttpURLConnection) new URL("http://chaotic-neutral.ddns.net:8080/badListData?uuidip="+player.uuid()).openConnection();
+                con.setConnectTimeout(10000);
                 con.setRequestMethod("GET");
                 con.setRequestProperty("User-Agent", "Mozilla/5.0");
 
