@@ -1,0 +1,7 @@
+{
+  "name": "GlobalBans-CN",
+  "author": "Anuke",
+  "main": "gb.main",
+  "description": "Check if player is is kicked/banned on CN",
+  "version": 420.69
+}
